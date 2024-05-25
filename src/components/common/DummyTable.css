@@ -1,0 +1,64 @@
+.dummy-table-container {
+    margin: 20px;
+  }
+  
+  .dummy-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+  }
+  
+  .dummy-table th,
+  .dummy-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .dummy-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .dummy-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .dummy-table tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+  .pagination {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination li {
+    display: inline;
+    margin-right: 5px;
+  }
+  
+  .pagination button {
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+  }
+  
+  .pagination button:hover {
+    background-color: #ddd;
+  }
+  
+  .pagination .active button {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  
+  .pagination .disabled button {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  

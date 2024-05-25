@@ -1,14 +1,13 @@
+import React from 'react'
+import DummyTable from './components/common/DummyTable'
 
-import './App.css';
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-          Hello
-      </header>
+    <div>App
+        <DummyTable/>
     </div>
-  );
+  
+  )
 }
 
-export default App;
+export default App
